@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=nbiotaab0;AccountKey=yG//uLzujmgJ58dJ7ws30jJVMJn8MMvezfXpkj66d9XXIg2QqDg/e0BzJG5wiPLTr+HwGBIFoABaFLKbTcYspA==",
+    "FUNCTIONS_EXTENSION_VERSION": "~2",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=nbiotaab0;AccountKey=yG//uLzujmgJ58dJ7ws30jJVMJn8MMvezfXpkj66d9XXIg2QqDg/e0BzJG5wiPLTr+HwGBIFoABaFLKbTcYspA==",
+    "WEBSITE_CONTENTSHARE": "nb-iotaab0",
+    "WEBSITE_NODE_DEFAULT_VERSION": "10.14.1"
+  }
+}
