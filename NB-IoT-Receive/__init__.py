@@ -4,9 +4,9 @@ import random
 import azure.functions as func
 from twilio.rest import Client
 
-account_sid = "AC801aa772453d06d7c7be40dc65667b19"
-auth_token = "5b8ae484037bd446b3a1900255cb2d28"
-twilio_number = "+17372019218"
+account_sid = "xxxxxxxxxxxxxxxxxxxx"
+auth_token = "xxxxxxxxxxxxxxxxxx"
+twilio_number = "+1xxxxxxxxxx"
 
 client = Client(account_sid, auth_token)
 
@@ -147,7 +147,7 @@ def main(req):
                 client.messages.create(
                     body=bad_jacket_reason,
                     from_=twilio_number,
-                    to='+12033088111')
+                    to='+1xxxxxxxxxxxx')
             
             return func.HttpResponse(status_code=200)
         
